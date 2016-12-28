@@ -3,33 +3,37 @@ msgstr ""
 "Project-Id-Version: Gno-Menu\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2016-11-23 14:49+0100\n"
-"Last-Translator: Piotr Komur <pkomur@gmail.com>\n"
+"PO-Revision-Date: 2016-10-22 14:14:39-0500\n"
+"Last-Translator: edison - forum.manjaro.org"
 "Language-Team: \n"
-"Language: pl\n"
+"Language: pl_PL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.9\n"
 
-#: convenience.js extension.js
+
+#: convenience.js
+
+
+#: extension.js
+
 msgid "Gno-Menu: Search Firefox bookmarks disabled"
-msgstr ""
+msgstr "Gno-Menu: Przeszukiwanie zakładek Firefox'a wyłączone"
 
 msgid "If you want to search Firefox bookmarks, you must install the required pacakages: libgir1.2-gda-5.0 [Ubuntu] or libgda-sqlite [Fedora]"
-msgstr ""
+msgstr "Jeśli chcesz przeszukiwać zakładki Firefox'a, musisz zainstalować paczkę: libgir1.2-gda-5.0 [Ubuntu] lub libgda-sqlite [Fedora]"
 
 msgid "Gno-Menu: Search Midori bookmarks disabled"
-msgstr ""
+msgstr "Gno-Menu: Przeszukiwanie zakładek Midori wyłączone"
 
 msgid "If you want to search Midori bookmarks, you must install the required pacakages: libgir1.2-gda-5.0 [Ubuntu] or libgda-sqlite [Fedora]"
-msgstr ""
+msgstr "Jeśli chcesz przeszukiwać zakładki Midori, musisz zainstalować paczkę: libgir1.2-gda-5.0 [Ubuntu] lub libgda-sqlite [Fedora]"
 
 msgid "Recent"
 msgstr "Ostatnie"
 
 msgid "Webmarks"
-msgstr "Podgląd"
+msgstr "Zakładki"
 
 msgid "Favorites"
 msgstr "Ulubione"
@@ -38,19 +42,19 @@ msgid "Places"
 msgstr "Miejsca"
 
 msgid "Toggle Startup Apps View"
-msgstr "Ustaw widok startowy"
+msgstr "Zmień widok"
 
 msgid "List View"
-msgstr "Lista"
+msgstr "Widok listy"
 
 msgid "Grid View"
-msgstr "Siatka"
+msgstr "Widok siatki"
 
 msgid "Type to search..."
-msgstr "Wpisz, aby wyszukać..."
+msgstr "Wpisz, by wyszukać..."
 
 msgid "All Applications"
-msgstr "Wszystkie"
+msgstr "Wszystkie prohramy"
 
 msgid "Frequent Apps"
 msgstr "Często używane"
@@ -59,16 +63,16 @@ msgid "Favorite Apps"
 msgstr "Ulubione"
 
 msgid "Restart Shell"
-msgstr "Uruchom ponownie środowisko Gnome"
+msgstr "Reset powłoki"
 
 msgid "Suspend"
-msgstr "Wstrzymaj komputer"
+msgstr "Hibernuj"
 
 msgid "Shutdown"
-msgstr "Wyłącz komputer"
+msgstr "Wyłącz"
 
 msgid "Logout User"
-msgstr "Wyloguj się"
+msgstr "Wyloguj użytkownika"
 
 msgid "Lock Screen"
 msgstr "Zablokuj ekran"
@@ -77,9 +81,11 @@ msgid "Preferences"
 msgstr "Ustawienia"
 
 msgid "No GnoMenu stylesheet found"
-msgstr "Nie znaleziono arkusza stylów GnoMenu"
+msgstr "Nie znaleziono stylu GnoMenu"
+
 
 #: placeDisplay.js
+
 msgid "Failed to launch \"%s\""
 msgstr "Nie udało się uruchomić \"%s\""
 
@@ -92,84 +98,86 @@ msgstr "Komputer"
 msgid "Browse network"
 msgstr "Przeglądaj sieć"
 
+
 #: prefs.js
+
 msgid "<b>Panel Settings</b>"
-msgstr "<b>Ustawienia panelu</b>"
+msgstr "<b>Ustawienia Panelu</b>"
 
 msgid "Disable activities hot corner"
-msgstr "Nieaktywny \"gorący narożnik\" Podglądu"
+msgstr "Wyłącz aktywny narożnik dla podglądu"
 
 msgid "Remove View button from panel"
-msgstr "Nie pokazuj przycisku Podgląd"
+msgstr "Usuń z panelu przycisk Widoku"
 
 msgid "Label for View button"
-msgstr "Etykieta dla przycisku Podgląd"
+msgstr "Etykieta dla przycisku Widoku"
 
 msgid "Use icon with View button"
-msgstr "Pokazuj ikonę przycisku Podgląd"
+msgstr "Użyj ikony dla przycisku Widoku"
 
 msgid "Remove Apps button from panel"
-msgstr "Nie pokazuj przycisku Programy"
+msgstr "Usuń z panelu przycisk Aplikacji"
 
 msgid "Label for Apps button"
-msgstr "Etykieta dla przycisku Programy"
+msgstr "Etykieta dla przycisku Aplikacji"
 
 msgid "Use icon with Apps button"
-msgstr "Pokazuj ikonę przycisku Programy"
+msgstr "Użyj ikony dla przycisku Aplikacji"
 
 msgid "Remove Menu button from panel"
-msgstr "Nie pokazuj przycisku Menu"
+msgstr "Usuń z panelu przycisk Menu"
 
 msgid "Label for Menu button"
 msgstr "Etykieta dla przycisku Menu"
 
 msgid "Use icon with Menu button"
-msgstr "Pokazuj ikonę przycisku Menu"
+msgstr "Użyj ikony dla przycisku Menu"
 
 msgid "Disable Menu button hot spot"
-msgstr "Nie aktywuj menu na krawędzi ekranu"
+msgstr "Wyłącz aktywny narożnik dla Menu"
 
 msgid "Disable Menu button shortcut key"
-msgstr "Nie aktywuj menu za pomocą skrótu klawiszowego"
+msgstr "Wyłącz skrót klawiszowy dla Menu"
 
 msgid "Invalid accelerator. Try F12, <Super>space, <Ctrl><Alt><Shift>a, etc."
-msgstr "Niewłaściwy skrót. Spróbuj F12, <Super>spacja, <Ctrl><Alt><Shift>a, itp."
+msgstr "Nieprawidłowy skrót. Spróbuj F12, <Super>Spacja, <Ctrl><Alt><Shift>a, itp."
 
 msgid "Set Menu button position"
-msgstr "Ustaw pozycję przycisku Menu"
+msgstr "Pozycja przycisku Menu"
 
 msgid "Left"
-msgstr "Z lewej"
+msgstr "Lewo"
 
 msgid "Center"
-msgstr "W środku"
+msgstr "Środek"
 
 msgid "Right"
-msgstr "Z prawej"
+msgstr "Prawo"
 
 msgid "<b>Menu Settings</b>"
 msgstr "<b>Ustawienia Menu</b>"
 
 msgid "Hide User Options Panel"
-msgstr "Ukryj panel opcji użytkownika"
+msgstr "Ukryj panel opcji Użytkownika"
 
 msgid "Hide Shortcuts Panel"
 msgstr "Ukryj panel skrótów"
 
 msgid "Menu layout size"
-msgstr "Rozmiar widoku menu"
+msgstr "Rozmiar układu Menu"
 
 msgid "Normal"
-msgstr "Zwykły"
+msgstr "Normalny"
 
 msgid "Compact"
 msgstr "Kompaktowy"
 
 msgid "Icons to display on Shortcuts Panel"
-msgstr "Pokaż na panelu skrótów"
+msgstr "Ikony wyświetlane na panelu skrótów"
 
-msgid "Applications to display at startup"
-msgstr "Po wyświetleniu menu pokazuj"
+msgid "Domyślnie wyświetlane aplikacje"
+msgstr "Beim Start anzuzeigende Programme"
 
 msgid "All"
 msgstr "Wszystkie"
@@ -181,25 +189,25 @@ msgid "None"
 msgstr "Żadne"
 
 msgid "Number of columns in Application Grid"
-msgstr "Liczba kolumn w siatce programów"
+msgstr "Liczba kolumn w siatce aplikacji"
 
 msgid "3"
-msgstr ""
+msgstr "3"
 
 msgid "4"
-msgstr ""
+msgstr "4"
 
 msgid "5"
-msgstr ""
+msgstr "5"
 
 msgid "6"
-msgstr ""
+msgstr "6"
 
 msgid "7"
-msgstr ""
+msgstr "7"
 
 msgid "Default view mode for applications"
-msgstr "Domyślny tryb widoku dla programów"
+msgstr "Domyślny tryb widoku aplikacji"
 
 msgid "List"
 msgstr "Lista"
@@ -208,22 +216,43 @@ msgid "Grid"
 msgstr "Siatka"
 
 msgid "Hide Categories Panel"
-msgstr "Ukryj kategorie"
+msgstr "Ukryj panel kategorii"
 
 msgid "Category selection method"
-msgstr "Sposób zaznaczania kategorii"
+msgstr "Sposób wyboru kategorii"
 
 msgid "Hover"
-msgstr "Wskazanie"
+msgstr "Najazd"
 
 msgid "Click"
 msgstr "Kliknięcie"
 
 msgid "Size of Shortcuts Panel icons"
-msgstr "Rozmiar ikon panelu skrótów"
+msgstr "Rozmiar ikon na panelu skrótów"
 
 msgid "Size of Application List icons"
-msgstr "Rozmiar ikon listy programów"
+msgstr "Rozmiar ikon listy aplikacji"
 
 msgid "Size of Application Grid icons"
-msgstr "Rozmiar ikon siatki programów"
+msgstr "Rozmiar ikon siatki aplikacji"
+
+
+#: webChromium.js
+
+
+#: webEpiphany.js
+
+
+#: webFirefox.js
+
+
+#: webGoogleChrome.js
+
+
+#: webMidori.js
+
+
+#: webOpera.js
+
+
+#: workspaceThumbnail.js
