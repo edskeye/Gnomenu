@@ -176,8 +176,8 @@ msgstr "Kompaktowy"
 msgid "Icons to display on Shortcuts Panel"
 msgstr "Ikony wyświetlane na panelu skrótów"
 
-msgid "Domyślnie wyświetlane aplikacje"
-msgstr "Beim Start anzuzeigende Programme"
+msgid "Applications to display at startup"
+msgstr "Domyślnie wyświetlane aplikacje"
 
 msgid "All"
 msgstr "Wszystkie"
@@ -206,6 +206,9 @@ msgstr "6"
 msgid "7"
 msgstr "7"
 
+msgid "Width of Application Grid labels"
+msgstr "Szerokość nazw w siatce aplikacji"
+
 msgid "Default view mode for applications"
 msgstr "Domyślny tryb widoku aplikacji"
 
@@ -226,6 +229,9 @@ msgstr "Najazd"
 
 msgid "Click"
 msgstr "Kliknięcie"
+
+msgid "Menu hover delay"
+msgstr "Opóźnienie najazdu menu"
 
 msgid "Size of Shortcuts Panel icons"
 msgstr "Rozmiar ikon na panelu skrótów"
